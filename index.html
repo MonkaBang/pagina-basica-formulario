@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="¨Tutoriales a tu alcance" />
+    <meta name="description" content="Acá se pone la descripción del sitio" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="tutoriales, html, desarrollo web" />
     <title>Formulario</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <center>
+        <h3>Formulario</h3>
+        <form>
+            <label for="texto">Entrada de texto</label>
+            <input id="texto" type="text" placeholder="Entrada de texto" value="" required>
+            <br>
+            <br>
+            <label for="correo">Entrada de correo</label>
+            <input id="correo" type="email" placeholder="Entrada de correo" value="" required>
+            <br>
+            <br>
+            <label for="pass">Entrada de contraseña</label>
+            <input id="pass" type="password" placeholder="Entrada de contraseña" value="" required>
+            <br>
+            <br>
+            <input type="number" value="1" min="0" max="3">
+            <br>
+            <br>
+            <select>
+                <option>Opción 1</option>
+                <option>Opción 2</option>
+                <option>Opción 3</option>
+            </select>
+            <br>
+            <br>
+            <input type="checkbox" id="rojo"><label for="rojo">Rojo</label>
+            <input type="checkbox" id="amarillo"><label for="amarillo">Amarillo</label>
+            <input type="checkbox" id="verde"><label for="verde">Verde</label>
+            <br>
+            <br>
+            <input type="radio" id="blanco" name="radio" checked><label for="blanco">Blanco</label>
+            <input type="radio" id="negro" name="radio" checked><label for="negro">Negro</label>
+        </form>
+    </center>
+  </body>
 </html>
